@@ -10,6 +10,3 @@ I continue to build on this experience by improving my technical knowledge, deve
 
 **Prepared by:**
 Tshepo Khutlang
-IT Support Technician
-CODE2002 Solutions
-South Africa 🇿🇦
