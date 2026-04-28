@@ -1,0 +1,42 @@
+{% extends 'tickets/base.html' %}
+{% block content %}
+<h1>Tickets</h1>
+<form method="get" class="search-form">
+    <input type="search" name="q" placeholder="Search tickets" value="{{ query }}">
+    <button type="submit">Search</button>
+</form>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Priority</th>
+            <th>Assigned To</th>
+            <th>Reported</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ticket in tickets %}
+        <tr>
+            <td><a href="{% url 'ticket_detail' ticket.ticket_id %}">#{{ ticket.ticket_id }}</a></td>
+            <td>{{ ticket.get_category_display }}</td>
+            <td>{{ ticket.get_status_display }}</td>
+            <td>{{ ticket.get_priority_display }}</td>
+            <td>
+                {% if ticket.assigned_to %}
+                    {{ ticket.assigned_to.get_full_name|default:ticket.assigned_to.username }}
+                {% else %}
+                    Unassigned
+                {% endif %}
+            </td>
+            <td>{{ ticket.created_date|date:'M d, Y' }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="6">No tickets match your filter.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

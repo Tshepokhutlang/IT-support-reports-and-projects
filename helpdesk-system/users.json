@@ -1,0 +1,11 @@
+[
+  {
+    "username": "tshepo_khutlang",
+    "email": "adkhutlang1@gmail.com",
+    "first_name": "Tshepo",
+    "last_name": "Khutlang",
+    "department": "",
+    "role": "enduser",
+    "password": "pbkdf2_sha256$1200000$5HL3xnyDc2YOTKPwUZAg8b$PKdrZVsYcY2ZzKGBxMOrCXgK0sh8RtFN0ddguief3nU="
+  }
+]

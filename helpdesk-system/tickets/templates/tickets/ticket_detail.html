@@ -1,0 +1,46 @@
+{% extends 'tickets/base.html' %}
+{% block content %}
+<h1>Ticket #{{ ticket.ticket_id }}</h1>
+<div class="ticket-detail">
+    <section class="panel two-column">
+        <div>
+            <h2>Issue</h2>
+            <p><strong>Category:</strong> {{ ticket.get_category_display }}</p>
+            <p><strong>Priority:</strong> {{ ticket.get_priority_display }}</p>
+            <p><strong>Status:</strong> {{ ticket.get_status_display }}</p>
+            <p><strong>Submitted by:</strong> {{ ticket.user_name }}</p>
+            <p><strong>Department:</strong> {{ ticket.department }}</p>
+            <p><strong>Submitted:</strong> {{ ticket.created_date|date:'M d, Y H:i' }}</p>
+            {% if ticket.resolved_date %}
+            <p><strong>Resolved:</strong> {{ ticket.resolved_date|date:'M d, Y H:i' }}</p>
+            {% endif %}
+        </div>
+        <div>
+            <h2>Description</h2>
+            <p>{{ ticket.description }}</p>
+            {% if ticket.screenshot %}
+            <p><strong>Screenshot:</strong> <a href="{{ ticket.screenshot.url }}" target="_blank">Download</a></p>
+            {% endif %}
+        </div>
+    </section>
+    <section class="panel">
+        <h2>Update Ticket</h2>
+        <form method="post" class="form-card">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.assigned_to.label_tag }}
+                {{ form.assigned_to }}
+            </div>
+            <div class="form-group">
+                {{ form.status.label_tag }}
+                {{ form.status }}
+            </div>
+            <div class="form-group full-width">
+                {{ form.notes.label_tag }}
+                {{ form.notes }}
+            </div>
+            <button type="submit" class="primary-button">Save Updates</button>
+        </form>
+    </section>
+</div>
+{% endblock %}

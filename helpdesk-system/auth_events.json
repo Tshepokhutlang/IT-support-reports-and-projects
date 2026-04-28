@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-04-28T16:43:08.158728+00:00",
+    "event": "register",
+    "username": "tshepo_khutlang",
+    "email": "adkhutlang1@gmail.com",
+    "status": "success",
+    "remote_addr": "127.0.0.1"
+  },
+  {
+    "timestamp": "2026-04-28T16:50:01.936359+00:00",
+    "event": "login",
+    "username": "tshepo_khutlang",
+    "user_id": 1,
+    "status": "success",
+    "remote_addr": "127.0.0.1"
+  }
+]

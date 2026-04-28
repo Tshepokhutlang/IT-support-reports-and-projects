@@ -1,0 +1,30 @@
+{% extends 'tickets/base.html' %}
+{% block content %}
+<h1>Submit a Support Ticket</h1>
+<form method="post" enctype="multipart/form-data" class="form-card">
+    {% csrf_token %}
+    <div class="form-grid">
+        <div class="form-group">
+            {{ form.department.label_tag }}
+            {{ form.department }}
+        </div>
+        <div class="form-group">
+            {{ form.category.label_tag }}
+            {{ form.category }}
+        </div>
+        <div class="form-group">
+            {{ form.priority.label_tag }}
+            {{ form.priority }}
+        </div>
+        <div class="form-group full-width">
+            {{ form.description.label_tag }}
+            {{ form.description }}
+        </div>
+        <div class="form-group full-width">
+            {{ form.screenshot.label_tag }}
+            {{ form.screenshot }}
+        </div>
+    </div>
+    <button type="submit" class="primary-button">Submit Ticket</button>
+</form>
+{% endblock %}

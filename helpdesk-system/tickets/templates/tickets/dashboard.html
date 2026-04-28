@@ -1,0 +1,44 @@
+{% extends 'tickets/base.html' %}
+{% block content %}
+<h1>Dashboard</h1>
+<div class="dashboard-cards">
+    <div class="card"><strong>Total Tickets</strong><span>{{ totals.total }}</span></div>
+    <div class="card"><strong>Open</strong><span>{{ totals.open }}</span></div>
+    <div class="card"><strong>In Progress</strong><span>{{ totals.in_progress }}</span></div>
+    <div class="card"><strong>Pending</strong><span>{{ totals.pending }}</span></div>
+    <div class="card"><strong>Resolved</strong><span>{{ totals.resolved }}</span></div>
+    <div class="card"><strong>Closed</strong><span>{{ totals.closed }}</span></div>
+</div>
+<section class="panel">
+    <h2>Support Metrics</h2>
+    <p>Average resolution time: <strong>{{ average_resolution|default:'N/A' }}</strong> minutes</p>
+    <h3>Technician performance</h3>
+    <table>
+        <thead>
+            <tr><th>Technician</th><th>Assigned</th><th>Resolved</th></tr>
+        </thead>
+        <tbody>
+            {% for tech in performance %}
+            <tr>
+                <td>{{ tech.name }}</td>
+                <td>{{ tech.assigned }}</td>
+                <td>{{ tech.resolved }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+<section class="panel">
+    <h2>Recent Tickets</h2>
+    <ul class="ticket-summary-list">
+        {% for ticket in recent_tickets %}
+        <li>
+            <a href="{% url 'ticket_detail' ticket.ticket_id %}">#{{ ticket.ticket_id }} - {{ ticket.category }} ({{ ticket.get_status_display }})</a>
+            <span>{{ ticket.user_name }} • {{ ticket.priority|title }}</span>
+        </li>
+        {% empty %}
+        <li>No tickets found.</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
