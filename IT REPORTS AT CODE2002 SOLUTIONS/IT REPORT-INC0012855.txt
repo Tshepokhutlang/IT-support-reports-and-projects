@@ -1,0 +1,33 @@
+IT REPORT-INC0012855
+
+26/06/2026
+High
+Resolved by TSHEPO KHUTLANG 
+My password is not working and I cannot log in to my computer
+Reported by: Maria Garcia 
+Department: Engineering | Location: Floor 3
+Contact:-
+
+Issue Description:
+I just got back from a 3-week vacation and now I can't log in. It keeps telling me my password is expired and I have to change it, but it won't let me change it from the login screen. I haven't logged in since the end of January. Please help, I have to get into my dev environment.
+
+Business Impact:
+Sprint deadline Friday. User is lead developer on payment processing module.
+
+Correct Solution Steps
+1
+In the ticket Actions panel (right side), click "Active Directory"
+2
+Search for the user "mgarcia" or "Maria Garcia"
+3
+Select the user to view their account details
+4
+CLICK on the user in the search results to select them - a verification panel will appear below their details
+5
+Send a verification code to confirm the user's identity before making changes
+6
+Once verified, click "Reset Password" to generate a temporary password
+7
+Click the blue Teams Chat icon (bottom-right) to securely share the temporary password with the user
+8
+Inform the user they must change the password upon first login

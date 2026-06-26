@@ -1,0 +1,36 @@
+IT REPORT-INC486242
+
+
+26/06/2026
+High
+Resolved by TSHEPO KHUTLANG
+Laptop won't charge even after I checked everything
+Reported by: Victoria Hayes 
+Department: Legal | Location: Floor 2
+Contact:-
+
+Issue Description:
+My laptop isn't charging. I tried different outlets and it still won't take a charge. I think my charger is busted — can you send a new one?
+
+Troubleshooting performed:
+- Tried multiple outlets
+- Charger light flickers
+- Battery stuck at a low percent
+
+Business Impact:
+Cannot keep the laptop powered; productivity at risk.
+
+
+Correct Solution Steps
+1
+Confirm over Teams Chat that the charger seems to be the problem, ask for the shipping address
+2
+Open "Ship Manager", select "Laptop Charger", and ship it to the user
+3
+When it arrives, ask the user if it is charging now — it is NOT, so the charging fault is in the laptop, not the charger
+4
+This is now a device replacement: ask the user to confirm whether they have a laptop or a desktop
+5
+In "Ship Manager", select the matching computer (Laptop), tick "Include return label", and Ship. Choosing Rush Priority (Instant) delivers it instantly, so the user gets it right away and you can resolve the ticket immediately
+6
+When the user confirms the replacement arrived, have them return the broken unit with the prepaid label

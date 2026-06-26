@@ -1,0 +1,38 @@
+IT REPORT-INC0012861
+
+26/06/2026
+Low
+Resolved by TSHEPO KHUTLANG
+Legal name change after marriage - please update my account
+Submitted by: Amanda Foster
+Request Type: Account Update - Legal Name Change
+
+Employee Details:
+- Current Name: Amanda Foster
+- New Legal Name: Amanda Reyes
+- Username: afoster
+- Department: Finance
+
+Hi IT, I got married last month and have legally changed my last name from Foster to Reyes. Could you please update my account?
+
+- Display name should read "Amanda Reyes"
+- New email address: -
+- Please keep my old address (-) working as an alias so I don't miss replies to older emails.
+
+HR has already approved the name change and updated my records. Thank you!
+
+Correct Solution Steps
+1
+In the ticket's "Ticket Actions" panel, click "Active Directory"
+2
+Search for "afoster" (Amanda Foster) and open her Profile tab
+3
+Click "Change Name & Email"
+4
+Set the display name to "Amanda Reyes"
+5
+In "New Email", enter "-"
+6
+The old address "-" stays listed under "Aliases" automatically, so she keeps receiving mail sent to it — no extra action needed
+7
+Click "Save Changes"
