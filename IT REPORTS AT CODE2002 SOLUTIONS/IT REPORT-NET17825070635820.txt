@@ -1,0 +1,33 @@
+IT REPORT-NET17825070635820
+
+27/06/2026
+High
+Resolved by TSHEPO KHUTLANG
+VPN disconnected and won't reconnect
+Reported by: Beth Collins
+Department: Sales | Location: Remote (Working from home)
+Contact:-
+
+Issue Description:
+VPN disconnected and won't reconnect
+
+Business Impact:
+Working remotely and lost VPN. Cannot access any internal resources.
+
+Correct Solution Steps
+1
+Open the ticket and note this user is working remotely
+2
+In the Actions panel, click "Remote Support", then click "Connect" next to the user's computer
+3
+Open the Terminal app on the remote desktop
+4
+Run ipconfig /flushdns to clear stale DNS entries
+5
+Restart the remote computer to apply the changes
+6
+After the reboot, the PC asks for the user's sign-in password - ask them for it in Teams Chat to sign back in
+7
+Once signed in, open the VPN client and click Connect
+8
+Verify the VPN connects successfully - the tunnel should come back online

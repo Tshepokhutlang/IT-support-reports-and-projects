@@ -1,0 +1,36 @@
+IT REPORT-INC0012848
+
+27/06/2026
+High
+Resolved by TSHEPO KHUTLANG
+Cannot get to my files on the shared drive anymore
+Reported by: Sarah Mitchell
+Department: Marketing | Location: Remote (Working from home)
+Contact: x4892
+
+Issue Description:
+I can't get to my files on the Marketing shared drive today. I keep getting "The network path was not found" when I try to open it. I'm working from home today. My internet and email both work fine.
+
+Troubleshooting performed by user:
+- Restarted my computer (no change)
+- Internet and email work normally
+- The mapped drives say disconnected
+
+Business Impact:
+Unable to access marketing campaign files. Deadline for Q1 campaign materials is EOD tomorrow.
+
+Correct Solution Steps
+1
+In the Actions panel (right side), click "Remote Support"
+2
+Click "Connect" next to the user's computer name to start a remote session
+3
+On the remote desktop, check the VPN Client - it shows DISCONNECTED (the user is on WiFi without VPN, so drives can't reach the file server)
+4
+Open the "VPN Client" app on the remote desktop and click the green "Connect" button
+5
+Once VPN is connected, click "Documentation" in the Actions panel and open the "File Server" article to find the correct UNC path for the Marketing department
+6
+On the remote desktop, open File Explorer → click "This PC" → click the ⋯ (See more) button in the top bar → "Map network drive"
+7
+In the dialog, select drive letter D:, enter the UNC path from the documentation, and click "Map Drive"
