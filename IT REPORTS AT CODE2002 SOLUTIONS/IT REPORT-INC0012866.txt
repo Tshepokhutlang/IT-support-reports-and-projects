@@ -1,0 +1,33 @@
+IT REPORT-INC0012866
+
+27/06/2026
+High
+Resolved by TSHEPO KHUTLANG
+Clock on my computer is wrong and my meetings are all messed up
+Reported by: Kevin Park 
+Department: Sales | Location: Floor 2
+Contact:-
+
+Issue Description:
+The clock on my computer is wrong! I'm in Central time but somehow my computer is set to Eastern. The minutes look off too by a couple. All my Teams meetings are showing up at the wrong times and I missed one already.
+
+Troubleshooting performed by user:
+- I noticed it's set to Eastern but I'm in Central
+- Restarted my computer - no change
+
+Business Impact:
+Missing meetings due to wrong timezone. File timestamps incorrect. Three more meetings scheduled this afternoon.
+
+Correct Solution Steps
+1
+In the Actions panel (right side), click "Remote Support"
+2
+Click "Connect" next to the user's computer name
+3
+Open Settings → Time & Language
+4
+Change the timezone from Eastern to Central Time using the dropdown
+5
+Click "Sync Clock Now" to correct the time offset
+6
+Verify the clock and timezone are both correct

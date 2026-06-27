@@ -1,0 +1,29 @@
+IT REPORT-INC0012858
+
+27/06/2026
+Critical
+Resolved by TSHEPO KHUTLANG 
+Nobody on the 3rd floor has internet right now
+Reported by: Mike Reeves 
+Department: Facilities | Location: Floor 3
+Contact:-
+
+Issue Description:
+Nobody on the 3rd floor has internet right now! Started about half an hour ago. None of us can get to any websites. The conference rooms up here are out too. I checked with the 2nd floor folks and they're fine.
+
+Business Impact:
+Multiple departments unable to work. Customer service team cannot access CRM.
+
+Correct Solution Steps
+1
+In the ticket Actions panel, click "Server Room" (or click it on the dashboard)
+2
+Go to the "Devices" tab to see network equipment
+3
+Locate "Floor 3 Switch" in the equipment list
+4
+Click the Power button next to Floor 3 Switch to reboot it
+5
+Wait for the switch to come back online (30-60 seconds)
+6
+Click the blue Teams Chat icon (bottom-right) and ask the user if their internet is back - the ticket resolves when they confirm

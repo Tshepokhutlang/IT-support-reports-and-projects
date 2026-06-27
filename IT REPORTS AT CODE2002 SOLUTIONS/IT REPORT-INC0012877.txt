@@ -1,0 +1,29 @@
+IT REPORT-INC0012877
+
+27/06/2026
+High
+Resolved by TSHEPO KHUTLANG
+None of the printers in the office are working
+Reported by: Dorothy Martinez
+Department: Legal | Location: Floor 2
+Contact: x4521
+
+Issue Description:
+None of the printers in the office are working! Every printer in the building shows offline. We tried sending jobs from a few floors and nothing prints anywhere. It was working yesterday evening.
+
+Business Impact:
+Legal team needs to print contracts for signing. Executive presentations cannot be printed.
+
+Correct Solution Steps
+1
+Click "Server Room" on the dashboard (or in the ticket Actions panel)
+2
+Go to the "Servers" tab and locate PRINT01 in the server list
+3
+Confirm the server is not responding (status: Down)
+4
+Click "Reboot" to restart the print server
+5
+Wait for the server to come back online
+6
+Click the blue Teams Chat icon (bottom-right) and ask the user if printing works now - the ticket resolves when they confirm
