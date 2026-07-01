@@ -1,0 +1,32 @@
+IT REPORT-INC517209
+
+01/07/2026
+High
+Resolved by TSHEPO KHUTLANG
+Internet keeps cutting in and out on Floor 2
+Reported by: Andrew Kim 
+Department: Sales | Location: Remote (Working from home)
+Contact:-
+
+Issue Description:
+Users on Floor 2 report their network connection drops for 30 seconds every few minutes then reconnects. Affects both wired and wireless. Pattern started this morning.
+
+Troubleshooting performed:
+- Multiple people on Floor 2 having the same issue
+- Other floors seem fine
+
+Business Impact:
+Video calls keep dropping. Cloud-based work constantly losing connection.
+
+Correct Solution Steps
+1
+Open Tools → Server Room
+2
+Open the "Devices" tab and find "Floor 2 Switch"
+3
+Click its Power button to reboot it
+4
+Ask the user over Team Chat if the connection is stable — it resolves when they confirm
+
+Why This Works
+Intermittent drops affecting an entire floor point to the floor switch experiencing spanning-tree reconvergence or a firmware bug. Rebooting the switch clears the fault and restores stable connectivity.

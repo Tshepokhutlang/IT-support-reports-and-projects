@@ -1,0 +1,32 @@
+IT REPORT-INC654536
+
+01/07/2026
+Medium
+Resolved by TSHEPO KHUTLANG
+Mail keeps asking for password repeatedly
+Reported by: David Lee
+Department: Customer Support | Location: Floor 1
+Contact:-
+
+Issue Description:
+Mail keeps asking me for my password over and over. I type it in, it works for a minute, then it asks me again. I'm typing the right password.
+
+Troubleshooting performed:
+- Typed my password many times
+- Checked caps lock is off
+
+Business Impact:
+Cannot reliably access email. Missing important communications.
+
+Correct Solution Steps
+1
+Open Tools → Remote Support and click Connect next to the user's PC
+2
+On the remote desktop, open Control Panel (search for it in the taskbar)
+3
+In Programs and Features, find "Mail Client" and click "Repair"
+4
+Wait for it to finish, then confirm the password prompts stop
+
+Why This Works
+Repeated password prompts in Mail usually indicate corrupted cached credentials. Repairing the mail client through Control Panel resets the credential cache and mail profile.

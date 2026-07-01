@@ -1,0 +1,30 @@
+IT REPORT-NET17825070945741
+
+01/07/2026
+High
+Resolved by TSHEPO KHUTLANG
+WiFi keeps disconnecting every few seconds
+Reported by: Stephanie Cruz
+Department: Sales
+Contact:-
+
+Issue Description:
+WiFi keeps disconnecting every few seconds
+
+Business Impact:
+Video call dropped 3 times. Cannot maintain stable connection.
+
+Correct Solution Steps
+1
+Open the ticket and note this is part of a company-wide outage
+2
+Go to the Server Room and click "Check ISP Status"
+3
+Confirm the result reads ISP DOWN
+4
+Open the pinned "Company GC" chat
+5
+Post an outage announcement that includes an ETA - this notifies everyone and clears the outage tickets
+
+Why This Works
+Network issues reported by multiple users at once point to a company-wide outage. Confirm it with "Check ISP Status" in the Server Room, then report it in the Company GC with an ETA. Posting the announcement notifies everyone and resolves the outage tickets.
