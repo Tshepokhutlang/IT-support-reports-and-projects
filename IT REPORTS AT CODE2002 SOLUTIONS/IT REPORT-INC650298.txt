@@ -1,0 +1,33 @@
+IT REPORT-INC650298
+
+03/07/2026
+Critical
+Resolved by TSHEPO KHUTLANG
+Laptop showing blue screen asking for a recovery key
+Reported by: Laura Santos
+Department: Finance | Location: Floor 2
+Contact:-
+
+Issue Description:
+I came in this morning and my laptop is stuck on this blue screen asking for some kind of recovery key. I have no idea what that is or where to find it. I can't use my computer at all.
+
+Troubleshooting performed:
+- Blue screen wants some kind of recovery key
+- I don't have the key
+
+Business Impact:
+User completely locked out of their computer. All work files inaccessible.
+
+Correct Solution Steps
+1
+Open Tools → Directory and verify the caller's identity FIRST (Send Verification Code, confirm Employee ID / Manager)
+2
+If they fail verification, do NOT release the key — close the ticket. Refusing is the correct security action
+3
+Once verified, look up the user in Directory to find their Drive Encryption recovery key
+4
+Open Tools → Remote Support and click Connect next to the locked computer
+5
+Enter the recovery key on the Drive Encryption screen to unlock the drive
+6
+Confirm Workstation OS boots without the recovery prompt

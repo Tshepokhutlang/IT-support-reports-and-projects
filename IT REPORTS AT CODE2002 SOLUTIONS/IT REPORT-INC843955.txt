@@ -1,0 +1,39 @@
+IT REPORT-INC843955
+
+03/07/2026
+Medium
+Resolved
+Employee leaving Friday - need everything shut off
+Reported by: James Richardson (jrichardson@servicedesk-simulator.com)
+Department: Executive | Location: Floor 1
+Contact: x1001
+
+Issue Description:
+HR requests account deprovisioning for an employee whose last day is this Friday. Need to disable account, reset password, and remove all group memberships per offboarding checklist.
+
+Troubleshooting performed:
+- Approved by HR Director
+- Employee: Sarah Mitchell
+- Username: smitchell
+- Department: Marketing
+- Last day: This Friday
+- Manager has been notified
+
+Business Impact:
+Security compliance requirement. Must be completed before end of business Friday.
+
+Correct Solution Steps
+1
+Open Tools → Directory and search for "smitchell" (Sarah Mitchell)
+2
+Disable the account (do not delete)
+3
+Reset the password
+4
+Remove all licenses (Office Suite, etc.)
+5
+Remove all groups except Domain Users
+6
+Open Asset Management, find smitchell, and return their device with a return label
+7
+Confirm the account is deprovisioned and the device is back in stock

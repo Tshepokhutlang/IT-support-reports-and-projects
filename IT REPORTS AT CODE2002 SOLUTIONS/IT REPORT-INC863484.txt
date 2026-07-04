@@ -1,0 +1,36 @@
+IT REPORT-INC863484
+
+03/07/2026
+Medium
+Resolved by TSHEPO KHUTLANG
+Cannot print to network printer
+Reported by: Victoria Hayes (vhayes@servicedesk-simulator.com)
+Department: Legal | Location: Floor 3
+Contact:-
+Printer: Floor3-Printer-C
+
+Issue Description:
+I can't print anything to the department printer. When I send a print job nothing happens. I really need to get a few things printed before my afternoon meeting.
+
+Troubleshooting performed:
+- Restarted my computer
+- The printer is on and has paper
+
+Business Impact:
+Cannot print reports needed for afternoon meeting.
+
+Correct Solution Steps
+1
+Open Tools → Documentation → "Print Server" and note the correct printer IP
+2
+Open Tools → Remote Support and click Connect next to the user's PC
+3
+Open Settings → Devices
+4
+Find the offline printer and click Remove
+5
+Click "Add a printer or scanner" → "Add a printer using a TCP/IP address or hostname"
+6
+Enter the correct IP from the documentation
+7
+Click "Print Test Page", then confirm with the user that printing works

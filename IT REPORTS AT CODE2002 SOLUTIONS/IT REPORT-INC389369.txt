@@ -1,0 +1,35 @@
+IT REPORT-INC389369
+
+03/07/2026
+Critical
+Resolved by TSHEPO KHUTLANG
+Got a security alert about a login I did not do
+Reported by: Kyle Morgan 
+Department: Sales | Location: Floor 1
+Contact:-
+
+Issue Description:
+I got an email saying someone logged into my account from somewhere I've never been. That wasn't me. I'm really worried someone got into my account.
+
+Troubleshooting performed:
+- Already changed my password
+- I never log in from that location
+- I'm in the office right now
+
+Business Impact:
+Potential security breach. User handles sensitive financial data.
+Correct Solution Steps
+1
+Open Tools → Directory and search for the user
+2
+Click the user and send a verification code to confirm their identity
+3
+Click "Reset Password" for a strong temporary password
+4
+Click "Reset MFA" — the attacker may have the old token
+5
+Check their Group memberships for any unauthorized groups
+6
+Run a FULL security scan: open Tools → Remote Support, Connect to their PC, then Settings → Security → choose "Full scan" and click "Run Security Scan" (a Quick scan can miss planted malware)
+7
+Open the ⋯ Options menu (top of the ticket) and click "Escalate" to hand it to the Security Team
