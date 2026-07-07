@@ -1,0 +1,29 @@
+IT REPORT-NET17831873700160
+
+07/07/2026
+Critical
+Resolved by TSHEPO KHUTLANG
+Internet completely down - cannot access anything
+Reported by: Robert Taylor
+Department: Finance
+Contact:-
+
+Issue Description:
+Internet completely down - cannot access anything
+
+Business Impact:
+Cannot access email, cloud apps, or any websites. Work completely halted.
+Correct Solution Steps
+1
+Open the ticket and note this is part of a company-wide outage
+2
+Go to the Server Room, open the "Metro ISP" device, and click "Check ISP Status" inside it
+3
+Confirm the result reads ISP DOWN and note the ETA it shows (when the internet will be back)
+4
+Open the pinned "Company GC" chat
+5
+Post an outage announcement that includes an ETA - this notifies everyone and clears the outage tickets
+
+Why This Works
+This ticket only appears when there is a real outage. Confirm it with "Check ISP Status" in the Server Room, then report it in the Company GC with an ETA so the whole company knows it is being handled. Posting the announcement resolves the outage tickets.

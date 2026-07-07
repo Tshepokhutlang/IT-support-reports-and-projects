@@ -1,0 +1,34 @@
+IT REPORT-INC620966
+
+07/07/2026
+Medium
+Resolved by TSHEPO KHUTLANG
+My second monitor is just a black screen
+Reported by: Sophia Lee
+Department: Marketing | Location: Remote (Working from home)
+Contact:-
+
+Issue Description:
+My second monitor just isn't showing up anymore. The settings only show one monitor now. The monitor is on and the cable is plugged in. Worked fine until the update last night.
+
+Troubleshooting performed:
+- Monitor is on and the cable is plugged in
+- Restarted my computer
+
+Business Impact:
+User relies on dual monitors for productivity - efficiency cut in half without second screen.
+
+Correct Solution Steps
+1
+Open Tools → Remote Support and click Connect next to the user's PC
+2
+Open the System Update app
+3
+Check for updates — a graphics driver update appears
+4
+Install all updates, including the graphics driver
+5
+Restart the PC if prompted, then confirm the display is back to normal
+
+Why This Works
+Multi-monitor support requires proper GPU driver support. When a system update corrupts the graphics driver, the GPU may fail to detect secondary displays. Installing the correct GPU driver through System Update restores multi-monitor output. Ask the user to confirm their GPU model.

@@ -1,0 +1,30 @@
+IT REPORT-INC510160
+
+07/07/2026
+Medium
+Resolved by TSHEPO KHUTLANG
+New phone - need help setting up company email
+Reported by: Derek Chang 
+Department: Marketing | Location: Remote (Working from home)
+Contact:-
+
+Issue Description:
+Just got a new phone and need to add my work email. The default settings aren't connecting and I don't know what server info to use. Have never set this up before on this device.
+
+Troubleshooting performed:
+- Phone has internet connection
+- Personal email works fine on the phone
+
+Business Impact:
+Cannot check work emails on the go.
+
+Correct Solution Steps
+1
+Open Tools → Documentation and find the mail server setup info
+2
+Open Team Chat (bottom-right) and send the user the correct mail server settings
+3
+Confirm email starts syncing on their phone
+
+Why This Works
+New device setup needs the corporate Mail Server info - the phone's default mail app doesn't know it. Look up the correct server, port, and security settings in Documentation and send them to the user via Team Chat. Once they enter them, email syncs.

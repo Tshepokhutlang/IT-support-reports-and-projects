@@ -1,0 +1,32 @@
+IT REPORT-INC501708
+
+06/07/2026
+High
+Resolved
+Cannot download email attachments
+Reported by: Beth Collins
+Department: Sales | Location: Remote (Working from home)
+Contact:-
+
+Issue Description:
+I can get emails fine but when I try to open the attachments nothing happens. Sometimes I get a weird error. Clients are sending me contracts I can't open.
+
+Troubleshooting performed:
+- Clicked the attachments a bunch
+- Closed and reopened Mail
+
+Business Impact:
+Cannot access contracts and documents clients are sending. Work is blocked.
+
+Correct Solution Steps
+1
+Open Tools → Remote Support and click Connect next to the user's PC
+2
+On the remote desktop, open Control Panel (search for it in the taskbar)
+3
+In Programs and Features, find "Mail Client" and click "Repair"
+4
+Wait for it to finish, then confirm attachments open
+
+Why This Works
+Attachment download failures usually indicate corrupted Mail configuration. Repairing the mail client through Control Panel resets temp folder permissions and attachment handling settings.

@@ -1,0 +1,34 @@
+IT REPORT-INC669280
+
+07/07/2026
+Critical
+Resolved by TSHEPO KHUTLANG
+Two-factor authentication not working
+Reported by: Ryan Brooks
+Department: Operations | Location: Floor 2
+Contact:-
+
+Issue Description:
+I can't log in. I keep putting in the code from the app on my phone but it tells me it's wrong every time. The codes look right.
+
+Troubleshooting performed:
+- Tried the code several times
+- Restarted my phone
+
+Business Impact:
+Completely locked out of all company systems. Cannot work.
+
+Correct Solution Steps
+1
+Open Tools → Directory and search for the user
+2
+Over Team Chat, message their manager to confirm the user needs an MFA reset
+3
+After the manager confirms, click "Reset MFA" in Directory
+4
+Tell the manager the user can log in and re-enroll their authenticator
+5
+Confirm with the user over Team Chat that it works
+
+Why This Works
+MFA failures with correct codes often indicate sync issues between the authenticator and the server. The fix is to reset (not remove) MFA enrollment so the user is prompted to re-set up their authenticator on next login. No password reset is needed; the issue is with the MFA token, not the password.
